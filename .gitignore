@@ -1,0 +1,54 @@
+# macOS / OS files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# IDEs / editors
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+
+# Local environment / secrets
+.env
+.env.*
+!.env.example
+*.local
+*.pem
+*.key
+*.crt
+*.p12
+*.jks
+kubeconfig
+kubeconfig.*
+*.kubeconfig
+
+# Logs
+*.log
+logs/
+
+# Java / Maven build output
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven wrapper artifacts
+.mvn/wrapper/maven-wrapper.jar
+
+# Test / coverage reports
+surefire-reports/
+failsafe-reports/
+jacoco.exec
+coverage/
+
+# Docker / local runtime files
+docker-compose.override.yml
