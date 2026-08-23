@@ -4,3 +4,7 @@ target/
 README.md
 .DS_Store
 *.log
+argo-basic.yaml
+sonarqube-10.4.1.88267.zip
+sonarqube-10.4.1.88267/
+start-sonarqube.sh
